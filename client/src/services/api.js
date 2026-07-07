@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://intellmeet-y3e2.onrender.com"
+  baseURL: "https://intellmeet-y3e2.onrender.com/api"
 });
 
 // Automatically attach token to every request

@@ -1,0 +1,41 @@
+.summary-page{
+width:90%;
+margin:auto;
+padding:40px;
+}
+
+.summary-page h1{
+text-align:center;
+margin-bottom:30px;
+}
+
+.summary-page input{
+width:100%;
+padding:12px;
+border:1px solid #ccc;
+border-radius:8px;
+margin-bottom:20px;
+}
+
+.summary-page button{
+background:#2563eb;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.summary-box{
+margin-top:30px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+}
+
+.summary-box pre{
+white-space:pre-wrap;
+font-size:15px;
+line-height:28px;
+}

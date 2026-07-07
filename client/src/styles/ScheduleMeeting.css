@@ -1,0 +1,96 @@
+.schedule-page{
+
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f5f7fb;
+padding:40px;
+
+}
+
+.schedule-card{
+
+width:500px;
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.schedule-card img{
+
+width:120px;
+height:120px;
+border-radius:50%;
+display:block;
+margin:auto;
+margin-bottom:20px;
+
+}
+
+.schedule-card h1{
+
+text-align:center;
+margin-bottom:8px;
+
+}
+
+.schedule-card p{
+
+text-align:center;
+margin-bottom:20px;
+
+}
+
+.schedule-card label{
+
+font-weight:600;
+margin-top:15px;
+display:block;
+
+}
+
+.schedule-card input,
+.schedule-card select,
+.schedule-card textarea{
+
+width:100%;
+padding:12px;
+margin-top:8px;
+margin-bottom:18px;
+border-radius:10px;
+border:1px solid #ddd;
+font-size:15px;
+
+}
+
+.schedule-card input:focus,
+.schedule-card select:focus,
+.schedule-card textarea:focus{
+
+outline:none;
+border-color:#4F46E5;
+
+}
+
+.schedule-card button{
+
+width:100%;
+padding:14px;
+background:#4F46E5;
+color:white;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+.schedule-card button:hover{
+
+background:#312E81;
+
+}
